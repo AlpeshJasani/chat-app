@@ -8,6 +8,8 @@ Some Features:
 -  Global state management with Zustand
 -  Error handling both on the server and on the client
 
+## Demo: https://chat-app-drag.onrender.com/
+
 ### Setup .env file
 ```js
 PORT=...
