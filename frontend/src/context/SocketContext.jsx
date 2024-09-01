@@ -19,8 +19,8 @@ export const SocketContextProvider = ({ children }) => {
 		if (authUser) {
 			// Initialize the Socket.IO connection when there's an authenticated user
 
-			// const socket = io("https://chat-app.onrender.com", { // backend URL
-			const socket = io("http://localhost:5000", { // backend URL
+			const socket = io("https://chat-app-drag.onrender.com", { // backend URL
+			// const socket = io("http://localhost:5000", { // backend URL
 				query: {
 					userId: authUser._id, // Send {userId: authUser._id} to the backend via query parameters
 				},
